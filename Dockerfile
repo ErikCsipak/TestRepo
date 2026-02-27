@@ -1,3 +1,4 @@
+# Git és Nano dockerfile
 # Ubuntu LTS alap image
 FROM ubuntu
 
@@ -16,4 +17,6 @@ CMD ["/bin/bash"]
 
 #docker build -t ubuntu-git-nano . -> imaget buildelünk
 #docker run -it --name ubuntu-git-nano-container ubuntu-git-nanols -> containert futtatunk az imageből
+#docker ps -s -> listázza a futó konténereket
+
 
